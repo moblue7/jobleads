@@ -44,7 +44,7 @@ class DataSeeder extends Seeder
 
 
             }
-            
+
 
         }
     }

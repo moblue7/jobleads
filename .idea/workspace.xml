@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6013ef7d-bcde-469b-9a8d-58cdb223034e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DataSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DataSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,12 +15,75 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataSeeder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/DataSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="672">
-              <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="total_tax_state.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/total_tax_state.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+              <folding>
+                <marker date="1555536588565" expanded="true" signature="216:230" ph="..." />
+                <marker date="1555536588565" expanded="true" signature="260:301" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaxController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaxController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="87" lean-forward="true" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+                <marker date="1555538073318" expanded="true" signature="849:1006" ph="select c.sta... county" />
+                <marker date="1555538073318" expanded="true" signature="1119:1442" ph="select T.sta... state" />
+                <marker date="1555538073318" expanded="true" signature="1183:1419" ph="select c.sta... county" />
+                <marker date="1555538073318" expanded="true" signature="1558:1624" ph="select c.sta... county" />
+                <marker date="1555538073318" expanded="true" signature="1736:1780" ph="select avg(t... county" />
+                <marker date="1555538073318" expanded="true" signature="1886:2018" ph="select sum(c... county" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_page.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/main_page.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="91" lean-forward="false" selection-start-line="25" selection-start-column="91" selection-end-line="25" selection-end-column="91" />
+              <folding>
+                <marker date="1555538091396" expanded="true" signature="104:136" ph="..." />
+                <marker date="1555538091396" expanded="true" signature="164:191" ph="..." />
+                <marker date="1555538091396" expanded="true" signature="228:258" ph="..." />
+                <marker date="1555538091396" expanded="true" signature="1129:1160" ph="..." />
+                <marker date="1555538091396" expanded="true" signature="1237:1267" ph="..." />
+                <marker date="1555538091396" expanded="true" signature="1374:1410" ph="..." />
+                <marker date="1555538091396" expanded="true" signature="1507:1545" ph="..." />
+                <marker date="1555538091396" expanded="true" signature="1642:1681" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="average_rate_state.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/average_rate_state.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <marker date="1555537328983" expanded="true" signature="223:237" ph="..." />
+                <marker date="1555537328983" expanded="true" signature="267:302" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,6 +105,12 @@
         <option value="$PROJECT_DIR$/app/County.php" />
         <option value="$PROJECT_DIR$/app/Income.php" />
         <option value="$PROJECT_DIR$/database/seeds/DataSeeder.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/total_tax_state.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/average_tax_state.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/average_rate_state.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TaxController.php" />
+        <option value="$PROJECT_DIR$/resources/views/main_page.blade.php" />
       </list>
     </option>
   </component>
@@ -95,7 +165,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -109,11 +183,21 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jobleads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jobleads" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="seeds" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -126,6 +210,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -213,12 +305,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555398463062</updated>
       <workItem from="1555398464937" duration="2039000" />
-      <workItem from="1555512505678" duration="3245000" />
+      <workItem from="1555512505678" duration="11134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5284000" />
+    <option name="totallyTimeSpent" value="13173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -318,11 +410,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DataSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
-          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/average_tax_state.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="64" lean-forward="false" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <folding>
+            <marker date="1555536627378" expanded="true" signature="218:232" ph="..." />
+            <marker date="1555536627378" expanded="true" signature="262:305" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/average_rate_state.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <marker date="1555537328983" expanded="true" signature="223:237" ph="..." />
+            <marker date="1555537328983" expanded="true" signature="267:302" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/total_tax_state.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <marker date="1555536588565" expanded="true" signature="216:230" ph="..." />
+            <marker date="1555536588565" expanded="true" signature="260:301" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaxController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="87" lean-forward="true" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1555538073318" expanded="true" signature="849:1006" ph="select c.sta... county" />
+            <marker date="1555538073318" expanded="true" signature="1119:1442" ph="select T.sta... state" />
+            <marker date="1555538073318" expanded="true" signature="1183:1419" ph="select c.sta... county" />
+            <marker date="1555538073318" expanded="true" signature="1558:1624" ph="select c.sta... county" />
+            <marker date="1555538073318" expanded="true" signature="1736:1780" ph="select avg(t... county" />
+            <marker date="1555538073318" expanded="true" signature="1886:2018" ph="select sum(c... county" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/main_page.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="91" lean-forward="false" selection-start-line="25" selection-start-column="91" selection-end-line="25" selection-end-column="91" />
+          <folding>
+            <marker date="1555538091396" expanded="true" signature="104:136" ph="..." />
+            <marker date="1555538091396" expanded="true" signature="164:191" ph="..." />
+            <marker date="1555538091396" expanded="true" signature="228:258" ph="..." />
+            <marker date="1555538091396" expanded="true" signature="1129:1160" ph="..." />
+            <marker date="1555538091396" expanded="true" signature="1237:1267" ph="..." />
+            <marker date="1555538091396" expanded="true" signature="1374:1410" ph="..." />
+            <marker date="1555538091396" expanded="true" signature="1507:1545" ph="..." />
+            <marker date="1555538091396" expanded="true" signature="1642:1681" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
