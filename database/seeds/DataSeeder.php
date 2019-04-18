@@ -30,7 +30,6 @@ class DataSeeder extends Seeder
             $county->tax_rate = $tax_rate;
             $county->save();
 
-
             for($j = 0; $j < 20; $j++){
 
 
@@ -40,8 +39,6 @@ class DataSeeder extends Seeder
                 $income->county_id = $county->id;
                 $income->save();
                 $county->incomes()->save($income);
-
-
 
             }
 
